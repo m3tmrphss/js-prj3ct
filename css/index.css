@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap');
+body {
+    background-color: #131313;
+} 
+main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+}
+h1 {
+    color: #E3B873;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.42px;
+    letter-spacing: -7%;
+    font-family: "Yeseva One";
+    width: min-content;
+    margin: 0;
+}
+.vector {
+    background-color: #E3B873;
+    width: 92px;
+    height: 1px;
+    margin-top: 51.64px;
+}
+.main__title {
+    display: flex;
+    flex-flow: row wrap;
+}
+.text-container > p:first-of-type {
+    color: #FFF;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.73px;
+    width: 90%;
+    margin-top: 34px;
+    margin-bottom: 42px;
+}
+.project-container h2{
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.95px; 
+    margin: 0;
+}
+.project-container p {
+    color: #FFF; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    width: 68%;
+    margin: 0;
+    margin-top: 9px;
+}
+.project-container div {
+    width: 175px;
+}
+.project-container {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 34px;
+    column-gap: 29px;
+    max-width: 500px;
+}
+.text-container {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 505px;
+    margin-top: 11.5vw;
+}
+.nav-images div {  
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.nav-images {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 60.5px;
+    row-gap: 10px;
+}
+.image-container {
+    margin-top: 53.04px;
+}
+main > div:nth-of-type(2) {
+    margin-top: 7.44vw;
+}
+.circle {
+    background-color: #FFFFFF4D;
+    width: 9.57px;
+    height: 9.57px;
+    border-radius: 30px;
+}
+.btn-group {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 29px;
+    margin-top: 79.6px;
+}
+.circle-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 17.5px;
+}
+.circle:hover {
+    cursor: pointer;
+}
+.prev:hover, .next:hover {
+    cursor: pointer;
+}
+.nav-images div:hover {
+    cursor: pointer;
+}
+.active {
+    background-color: #FFF;
+}
+.page {
+    color: #E3B873 !important;
+    padding-bottom: 6.66px;
+    border-bottom: 1px solid #E3B873;
+}
+.image-container {
+    max-width: 680px;
+}
+.image-container img {
+    width: 100%;
+}
